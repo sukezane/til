@@ -3,6 +3,9 @@
 Slot to extend the format toolbar. Use it in the edit function of a `registerFormatType` call to surface the format to the UI.
 
 ### Options
+type: 
+character: 
+onUse:
 icon: Toolbar button icon. You can set <svg> tag and [dash-icons](https://developer.wordpress.org/resource/dashicons/)
 title: Toolbar title.
 onClick: Catch onclick event.
@@ -52,3 +55,4 @@ registerFormatType( /* ... */, {
 
 ## Reference
 https://wordpress.org/gutenberg/handbook/designers-developers/developers/tutorials/format-api/2-toolbar-button/
+wp-includes/js/dist/format-library.min.js
