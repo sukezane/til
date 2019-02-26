@@ -2,6 +2,14 @@
 
 Slot to extend the format toolbar. Use it in the edit function of a `registerFormatType` call to surface the format to the UI.
 
+### Options
+icon: Toolbar button icon. You can set <svg> tag and [dash-icons](https://developer.wordpress.org/resource/dashicons/)
+title: Toolbar title.
+onClick: Catch onclick event.
+isActive: Get state that current Toolbar is active.
+shortcutType: You can set the shortcut key type. ex.`primary`
+shortcutCharacter: Shortcut command character. ex. `b`
+
 ### Example
 
 ES5
