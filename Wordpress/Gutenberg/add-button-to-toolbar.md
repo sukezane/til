@@ -6,7 +6,7 @@ Slot to extend the format toolbar. Use it in the edit function of a `registerFor
 type:  
 character:  
 onUse:  
-icon: Toolbar button icon. You can set <svg> tag and [dash-icons](https://developer.wordpress.org/resource/dashicons/)
+icon: Toolbar button icon. You can set <svg> tag and [dash-icons](https://developer.wordpress.org/resource/dashicons/)  
 title: Toolbar title.  
 onClick: Catch onclick event.  
 isActive: Get state that current Toolbar is active.  
