@@ -10,7 +10,7 @@ icon: Toolbar button icon. You can set <svg> tag and [dash-icons](https://develo
 title: Toolbar title.  
 onClick: Catch onclick event.  
 isActive: Get state that current Toolbar is active.  
-shortcutType: You can set the shortcut key type. ex.`primary`  
+shortcutType: You can set the shortcut key type. ex.`primary`, `primaryShift`.  
 shortcutCharacter: Shortcut command character. ex. `b`  
 
 ### Example
@@ -56,3 +56,5 @@ registerFormatType( /* ... */, {
 ## Reference
 https://wordpress.org/gutenberg/handbook/designers-developers/developers/tutorials/format-api/2-toolbar-button/
 wp-includes/js/dist/format-library.min.js
+https://unix.stackexchange.com/questions/168505/what-is-primary-for-a-key
+
