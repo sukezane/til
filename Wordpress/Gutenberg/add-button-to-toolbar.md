@@ -54,7 +54,7 @@ registerFormatType( /* ... */, {
 ```
 
 ## Reference
-https://wordpress.org/gutenberg/handbook/designers-developers/developers/tutorials/format-api/2-toolbar-button/
-wp-includes/js/dist/format-library.min.js
-https://unix.stackexchange.com/questions/168505/what-is-primary-for-a-key
+https://wordpress.org/gutenberg/handbook/designers-developers/developers/tutorials/format-api/2-toolbar-button/  
+wp-includes/js/dist/format-library.min.js  
+https://unix.stackexchange.com/questions/168505/what-is-primary-for-a-key  
 
