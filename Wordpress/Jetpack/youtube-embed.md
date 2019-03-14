@@ -5,7 +5,8 @@ YoutubeのURLを記入すると以下のような形式で埋め込みが挿入�
 </span>
 ```
 
-不要な場合、shortcodeを削除するfunctionを別途設定する。  
+不要な場合、shortcodeを削除するfunctionを別途設定する。(プラグインとして実行する必要がある。)
 
 ## Reference  
 https://jetpack.com/2013/08/07/disable-shortcodes-jetpack/
+https://github.com/Automattic/jetpack/issues/7449
