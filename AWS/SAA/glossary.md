@@ -42,5 +42,9 @@ https://gist.github.com/gushernobindsme/f9694f55c892ee3f1ae7b83c187a488b#swf
 #### ワーカーとディサイダー  
 https://aws.amazon.com/jp/swf/faqs/
 
+### 仮想ネットワークインターフェース  
+仮想NICの概念に近い。
+https://wa3.i-3-i.info/word12850.html
+
 ## 参考  
 https://5hintaro.com/it/aws-saa-fail/#st-toc-h-2  
