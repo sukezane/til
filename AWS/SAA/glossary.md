@@ -55,5 +55,9 @@ Windowsのサーバさんに搭載されている、ネットワークにつな�
 あるドメイン内で認証済みのサーバーなどが互いに認証なしにやり取りできるようになる。  
 https://wa3.i-3-i.info/word12420.html
 
+### Simple AD  
+Microsoft ADの機能が利用できる。
+https://docs.aws.amazon.com/ja_jp/directoryservice/latest/admin-guide/directory_simple_ad.html
+
 ## 参考  
 https://5hintaro.com/it/aws-saa-fail/#st-toc-h-2  
