@@ -59,5 +59,9 @@ https://wa3.i-3-i.info/word12420.html
 Microsoft ADの機能が利用できる。
 https://docs.aws.amazon.com/ja_jp/directoryservice/latest/admin-guide/directory_simple_ad.html
 
+### トランザクション  
+不可分な一連の処理のこと。
+https://wa3.i-3-i.info/word142.html
+
 ## 参考  
 https://5hintaro.com/it/aws-saa-fail/#st-toc-h-2  
