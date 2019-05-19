@@ -43,8 +43,15 @@ https://gist.github.com/gushernobindsme/f9694f55c892ee3f1ae7b83c187a488b#swf
 https://aws.amazon.com/jp/swf/faqs/
 
 ### 仮想ネットワークインターフェース  
-仮想NICの概念に近い。
+Elastic Network Interfaceのこと。  
+仮想[NIC](https://wa3.i-3-i.info/word12498.html)の概念に近い。  
 https://wa3.i-3-i.info/word12850.html
+
+### Elastic Network Interface  
+仮想ネットワークインターフェースのこと。  
+ネットワークインターフェースの設定を保持しつつ他のインスタンスにアタッチすることができる。  
+
+https://docs.aws.amazon.com/ja_jp/AWSEC2/latest/UserGuide/using-eni.html
 
 ### CIDR  
 アドレス範囲を任意に設定する。
