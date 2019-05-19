@@ -3,6 +3,17 @@
 IPsecと呼ばれる形式の専用回線  
 https://wa3.i-3-i.info/word12038.html
 
+### ハードウェアVPN  
+オンプレミスとAWSサーバーの間をVPN接続する。  
+
+### 仮想プライベートゲートウェイ  
+オンプレミスとAWSサーバーを接続(ハードウェアVPN)する際にAWS側に設定するゲートウェイ。  
+VPCのデフォルト設定ではVPC外のサーバーとの通信が確立できないため、これを使用して通信を行うよう設定できる。  
+https://docs.aws.amazon.com/ja_jp/vpn/latest/s2svpn/VPC_VPN.html
+
+### カスタマーゲートウェイ  
+オンプレミスとAWSサーバーを接続(ハードウェアVPN)する際にユーザー側に設定するゲートウェイ。  
+
 ### インターフェイスVPCエンドポイント  
 AWS PrivateLinkと同義。インターネットから出ることがなくサービス間をつなぐことができる。  
 https://blog.mmmcorp.co.jp/blog/2017/11/15/aws_privatelink/  
@@ -69,6 +80,18 @@ https://docs.aws.amazon.com/ja_jp/directoryservice/latest/admin-guide/directory_
 ### トランザクション  
 不可分な一連の処理のこと。
 https://wa3.i-3-i.info/word142.html
+
+### シーケンシャルアクセス（IO）  
+ストレージへの連続的なアクセスのこと。  
+HDDが得意とする。  
+スループットが性能の指標として使われる。
+https://cm.it-ex.com/c/focus/storage_iroha/index08.html
+
+### ランダムアクセス（IO）  
+ストレージへのランダムなアクセスのこと。  
+SSDが得意とする。
+IOPSが性能の修正として使われる。  
+https://cm.it-ex.com/c/focus/storage_iroha/index08.html
 
 ## 参考  
 https://5hintaro.com/it/aws-saa-fail/#st-toc-h-2  
