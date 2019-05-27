@@ -93,5 +93,9 @@ SSDが得意とする。
 IOPSが性能の修正として使われる。  
 https://cm.it-ex.com/c/focus/storage_iroha/index08.html
 
+### PV,HVM  
+準仮想化、ハードウェア仮想化
+https://qiita.com/namihitoo/items/e5201ac2c853b01c4975#hvmhardware-assited-vm
+
 ## 参考  
 https://5hintaro.com/it/aws-saa-fail/#st-toc-h-2  
