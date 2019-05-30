@@ -7,3 +7,8 @@ https://qiita.com/nogson/items/63519abe945cfa806951#%E5%A4%89%E6%95%B0%E3%81%AB%
 
 ## 外部の関数を参照する  
 外部の関数を参照する場合、関数を変数に入れ`declare const functionName: any;`の形式でvue.shims.d.tsファイルに変数を宣言する。
+
+## コンポーネントをインポートする  
+tsで書く場合、コンポーネントの拡張子（`.vue`）をつけないとエラーが出る。  
+`import AppleMusicPlayer from './components/AppleMusicPlayer'`  error
+`import AppleMusicPlayer from './components/AppleMusicPlayer.vue'` ok
