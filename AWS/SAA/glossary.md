@@ -97,7 +97,8 @@ https://cm.it-ex.com/c/focus/storage_iroha/index08.html
 準仮想化、ハードウェア仮想化
 https://qiita.com/namihitoo/items/e5201ac2c853b01c4975#hvmhardware-assited-vm
 
-## ステートレス、ステートフル  
+### ステートレス、ステートフル  
+ステートレスは状態を維持し、ステートフルは状態に応じて変化が発生すること。
 https://milestone-of-se.nesuke.com/nw-basic/as-nw-engineer/stateful-and-stateless/
 
 ## 参考  
