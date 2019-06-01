@@ -101,12 +101,18 @@ https://qiita.com/namihitoo/items/e5201ac2c853b01c4975#hvmhardware-assited-vm
 ステートレスは状態を維持し、ステートフルは状態に応じて変化が発生すること。
 https://milestone-of-se.nesuke.com/nw-basic/as-nw-engineer/stateful-and-stateless/
 
-### RDS(mysql)にSSL接続するコマンド  
-
+### RDS(mysql)にSSL接続するコマンド 
 ```
 mysql -h myinstance.c9akciq32.rds-us-east-1.amazonaws.com
 --ssl-ca=[full path]rds-combined-ca-bundle.pem --ssl-mode=VERIFY_IDENTITY
-```
+```  
+https://docs.aws.amazon.com/ja_jp/AmazonRDS/latest/UserGuide/CHAP_MySQL.html#MySQL.Concepts.SSLSupport  
+
+## Elasticache  
+キーバリュー型NoSQL。MemcachedとRedisを使用できる。  
+シンプルなデータ構造にはMembached, 複雑なデータ構造にはRedisが適している。  
+セッション情報をインスタンスでなくメモリにもたせておくことでステートレスな設計が可能になる。[参考](http://aws.clouddesignpattern.org/index.php/CDP:State_Sharing%E3%83%91%E3%82%BF%E3%83%BC%E3%83%B3)  
+
 
 ## 参考  
 https://5hintaro.com/it/aws-saa-fail/#st-toc-h-2  
