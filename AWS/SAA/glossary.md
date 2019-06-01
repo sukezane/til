@@ -37,7 +37,7 @@ https://wa3.i-3-i.info/word12471.html
 https://docs.aws.amazon.com/ja_jp/vpc/latest/userguide/egress-only-internet-gateway.html
 
 ### Network Load Balancer  
-静的なIPをもつロードバランサー。  
+静的なIPをもつロードバランサー。毎秒数百万のリクエストを処理できる。
 https://cloudpack.media/37201  
 https://docs.aws.amazon.com/ja_jp/elasticloadbalancing/latest/network/introduction.html
 
@@ -100,6 +100,13 @@ https://qiita.com/namihitoo/items/e5201ac2c853b01c4975#hvmhardware-assited-vm
 ### ステートレス、ステートフル  
 ステートレスは状態を維持し、ステートフルは状態に応じて変化が発生すること。
 https://milestone-of-se.nesuke.com/nw-basic/as-nw-engineer/stateful-and-stateless/
+
+### RDS(mysql)にSSL接続するコマンド  
+
+```
+mysql -h myinstance.c9akciq32.rds-us-east-1.amazonaws.com
+--ssl-ca=[full path]rds-combined-ca-bundle.pem --ssl-mode=VERIFY_IDENTITY
+```
 
 ## 参考  
 https://5hintaro.com/it/aws-saa-fail/#st-toc-h-2  
