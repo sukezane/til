@@ -116,7 +116,8 @@ https://docs.aws.amazon.com/ja_jp/AmazonRDS/latest/UserGuide/CHAP_MySQL.html#MyS
 ### プロビジョニングとデプロイ  
 デプロイはコードやバイナリ、アセットなどの配布のこと。  
 プロビジョニングはインフラストラクチャー構築のこと。
-https://gyazo.com/97efdab64a5dc5f96e4df560677ffa4c
+https://gyazo.com/97efdab64a5dc5f96e4df560677ffa4c  
+https://www.slideshare.net/AmazonWebServicesJapan/awswebinaraws-54198407  
 
 ## 参考  
 https://5hintaro.com/it/aws-saa-fail/#st-toc-h-2  
