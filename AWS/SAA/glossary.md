@@ -113,6 +113,10 @@ https://docs.aws.amazon.com/ja_jp/AmazonRDS/latest/UserGuide/CHAP_MySQL.html#MyS
 シンプルなデータ構造にはMembached, 複雑なデータ構造にはRedisが適している。  
 セッション情報をインスタンスでなくメモリにもたせておくことでステートレスな設計が可能になる。[参考](http://aws.clouddesignpattern.org/index.php/CDP:State_Sharing%E3%83%91%E3%82%BF%E3%83%BC%E3%83%B3)  
 
+### プロビジョニングとデプロイ  
+デプロイはコードやバイナリ、アセットなどの配布のこと。  
+プロビジョニングはインフラストラクチャー構築のこと。
+https://gyazo.com/97efdab64a5dc5f96e4df560677ffa4c
 
 ## 参考  
 https://5hintaro.com/it/aws-saa-fail/#st-toc-h-2  
