@@ -42,4 +42,4 @@ CPUコアとメモリ幼鳥の割合は比例して割り当てられる　　
 
 #### how to iinvestigate
 - debu:in <function>での cloudwatch Log出力
-- 
+
