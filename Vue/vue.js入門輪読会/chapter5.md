@@ -15,7 +15,7 @@ https://stackoverflow.com/questions/49046697/vue-root-element-content-and-conten
 
 - slot-scopeでv-ifを使用できない理由
 
-#5.3  
+# 5.3  
 カスタムディレクティブ
 - updateフックは関係ないデータの変更に対して検知しないように処理する必要がある
   - img-fallbackでsrcの内容に変更がない場合でも、alt属性に変更があった場合にupdateフックが作動してしまうため  
@@ -25,3 +25,7 @@ https://stackoverflow.com/questions/49046697/vue-root-element-content-and-conten
 - どのノードを描画するかを記述した情報。仮想DOMはこの総体
 https://jp.vuejs.org/v2/guide/render-function.html#%E4%BB%AE%E6%83%B3-DOM
 
+# 5.4  
+- mixinアンチパターン  
+https://aloerina01.github.io/blog/2018-12-25-1
+- mixinのユースケースは？
